@@ -1,0 +1,38 @@
+
+# Python Virtual Environments
+venv/
+env/
+.venv/
+.env/
+ENV/
+env.bak/
+venv.bak/
+
+# Node.js Dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+
+# PEP 582
+__pypackages__/
+
+
+# SageMath parsed files
+*.sage.py
+
+# Environments
+.env
+.venv
+
+# VS Code
+.vscode/
+
+# Data files
+*.csv
+*.json
+*.xlsx
+*.xls
+*.parquet
+*.feather
