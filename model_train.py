@@ -202,9 +202,9 @@ def plot_results(results, X_test, y_test):
     ax2 = axes[0, 1]
     cm = results[best_model_name]['confusion_matrix']
     sns.heatmap(cm, annot=True, fmt='d', cmap='Blues', ax=ax2)
-    ax2.set_title(f'Confusion Matrix - {best_model_name}')
-    ax2.set_xlabel('Predicted')
-    ax2.set_ylabel('Actual')
+    ax2.set_title(f'Матриця невідповідностей - Логістична регресія')
+    ax2.set_xlabel('Передбачений')
+    ax2.set_ylabel('Фактичний')
     
     # Plot 3: Feature Importance (if Random Forest)
     ax3 = axes[1, 0]
